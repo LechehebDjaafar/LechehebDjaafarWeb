@@ -79,6 +79,6 @@
 
 ## التواصل
 
-اسمك - [Youtube](https://www.youtube.com/@CodeCraftDL) - djaafardjaafarlolo@gmail.com
+Djaafar Lecheheb - [Youtube](https://www.youtube.com/@CodeCraftDL) - djaafardjaafarlolo@gmail.com
 
 رابط المشروع: [https://github.com/LechehebDjaafar/LechehebDjaafarWeb](https://github.com/LechehebDjaafar/LechehebDjaafarWeb)
