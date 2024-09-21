@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    {% load static %}
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Portfolio</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="description" content="Leven - Resume / CV / vCard Template" />
+    <meta
+      name="keywords"
+      content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, portfolio"
+    />
+    <meta name="author" content="djaafar" />
+    <link rel="shortcut icon" href="{% static 'favicon.ico' %}" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="{% static 'css/normalize.css' %}"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="{% static 'css/bootstrap.min.css' %}"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="{% static 'css/owl.carousel.css' %}"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="{% static 'css/magnific-popup.css' %}"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="{% static 'css/main.css' %}" type="text/css" />
+
+    <script src="{% static 'js/modernizr.custom.js' %}"></script>
+  </head>
+
+  <body class="page">
+    <div class="lm-animated-bg"></div>
+
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="preloader-spinner"></div>
+      </div>
+    </div>
+    <!-- /Loading animation -->
+
+    <!-- Scroll To Top Button -->
+    <div class="lmpixels-scroll-to-top"><i class="lnr lnr-chevron-up"></i></div>
+    <!-- /Scroll To Top Button -->
+
+    <div class="page-scroll">
+      <div
+        id="page_container"
+        class="page-container bg-move-effect"
+        data-animation="transition-flip-in-right"
+      >
+        <!-- Header -->
+        <header id="site_header" class="header">
+          <div class="header-content clearfix">
+            <!-- Text Logo -->
+            <div class="text-logo">
+              <a href="index">
+                <div class="logo-symbol">D</div>
+                <div class="logo-text">aafar <span>Lecheheb</span></div>
+              </a>
+            </div>
+            <!-- /Text Logo -->
+
+            <!-- Navigation -->
+            <div class="site-nav mobile-menu-hide">
+              <ul class="leven-classic-menu site-main-menu">
+                <li class="menu-item">
+                  <a href="index">About Me</a>
+                </li>
+
+                <li class="menu-item">
+                  <a href="resume">Resume</a>
+                </li>
+
+                <li class="menu-item">
+                  <a href="portfolio">Portfolio</a>
+                </li>
+
+                <li class="menu-item">
+                  <a href="contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+
+            <a class="menu-toggle mobile-visible">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        </header>
+
+        <div id="main" class="site-main">
+          <div id="main-content" class="single-page-content">
+            <div id="primary" class="content-area">
+              <div class="page-title">
+                <h1>Resume</h1>
+                <div class="page-subtitle">
+                  <h4>4 Years of Experience</h4>
+                </div>
+              </div>
+
+              <div
+                id="content"
+                class="page-content site-content single-post"
+                role="main"
+              >
+                <div class="row">
+                  <div class="col-xs-12 col-sm-6">
+                    <div class="block-title">
+                      <h2>Education</h2>
+                    </div>
+
+                    <div id="timeline_1" class="timeline clearfix">
+                      <div class="timeline-item clearfix">
+                        <h5 class="item-period">2009</h5>
+                        <span class="item-company">University of Studies</span>
+                        <h4 class="item-title">UI Design</h4>
+                        <p>
+                          Duis posuere, quam non imperdiet egestas, eros enim
+                          mattis mauris, in posuere lacus arcu quis felis. Etiam
+                          interdum erat non enim venenatis fermentum.
+                        </p>
+                      </div>
+
+                      <div class="timeline-item clearfix">
+                        <h5 class="item-period">2008</h5>
+                        <span class="item-company">University of Studies</span>
+                        <h4 class="item-title">Graphic Design</h4>
+                        <p>
+                          Aliquam tincidunt malesuada tortor vitae iaculis. In
+                          eu turpis iaculis, feugiat risus quis, aliquet urna.
+                          Quisque fringilla mollis risus, eu pulvinar dolor.
+                        </p>
+                      </div>
+
+                      <div class="timeline-item clearfix">
+                        <h5 class="item-period">2007</h5>
+                        <span class="item-company">University of Studies</span>
+                        <h4 class="item-title">Frontend Development</h4>
+                        <p>
+                          Maecenas finibus nec sem ut imperdiet. Ut tincidunt
+                          est ac dolor aliquam sodales. Phasellus sed mauris
+                          hendrerit, laoreet sem in, lobortis ante.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-6">
+                    <div class="block-title">
+                      <h2>Experience</h2>
+                    </div>
+
+                    <div id="timeline_2" class="timeline clearfix">
+                      <div class="timeline-item clearfix">
+                        <h5 class="item-period current">2016 - Current</h5>
+                        <span class="item-company">Rolling Thunder</span>
+                        <h4 class="item-title">Lead UI/UX Designer</h4>
+                        <p>
+                          Praesent dignissim sollicitudin justo, sed elementum
+                          quam lacinia quis. Phasellus eleifend tristique
+                          posuere. Sed vitae dui nec magna.
+                        </p>
+                      </div>
+
+                      <div class="timeline-item clearfix">
+                        <h5 class="item-period">2013 - 2016</h5>
+                        <span class="item-company">Locost Accessories</span>
+                        <h4 class="item-title">Senior UI/UX Designer</h4>
+                        <p>
+                          Maecenas tempus faucibus rutrum. Duis eu aliquam urna.
+                          Proin vitae nulla tristique, ornare felis id, congue
+                          libero. Nam volutpat euismod quam.
+                        </p>
+                      </div>
+
+                      <div class="timeline-item clearfix">
+                        <h5 class="item-period">2011 - 2013</h5>
+                        <span class="item-company">Sagebrush</span>
+                        <h4 class="item-title">Junior UI/UX Designer</h4>
+                        <p>
+                          Duis mollis nunc quis quam viverra venenatis. Nulla
+                          nulla arcu, congue vitae nunc ac, sodales ultricies
+                          diam. Nullam justo leo, tincidunt sit amet.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12">
+                    <div class="p-40"></div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-xs-12 col-sm-6">
+                    <div class="block-title">
+                      <h2>Design Skills</h2>
+                    </div>
+
+                    <div id="skills_1" class="skills-info skills-first-style">
+                      <!-- Skill 1 -->
+                      <div class="clearfix">
+                        <h4>UI/UX Design</h4>
+                        <div class="skill-value">30%</div>
+                      </div>
+
+                      <div id="skill_1" data-value="30" class="skill-container">
+                        <div class="skill-percentage"></div>
+                      </div>
+                      <!-- /Skill 1 -->
+
+                      <!-- Skill 2 -->
+                      <div class="clearfix">
+                        <h4>Print Design</h4>
+                        <div class="skill-value">75%</div>
+                      </div>
+
+                      <div id="skill_2" data-value="75" class="skill-container">
+                        <div class="skill-percentage"></div>
+                      </div>
+                      <!-- /Skill 2 -->
+
+                      <!-- Skill 3 -->
+                      <div class="clearfix">
+                        <h4>Graphic Design</h4>
+                        <div class="skill-value">85%</div>
+                      </div>
+                      <div id="skill_3" data-value="85" class="skill-container">
+                        <div class="skill-percentage"></div>
+                      </div>
+                      <!-- Skill 3 -->
+
+                      <!-- Skill 4 -->
+                      <div class="clearfix">
+                        <h4>Logo Design</h4>
+                        <div class="skill-value">90%</div>
+                      </div>
+                      <div id="skill_4" data-value="90" class="skill-container">
+                        <div class="skill-percentage"></div>
+                      </div>
+                      <!-- /Skill 4 -->
+                    </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-6">
+                    <div class="block-title">
+                      <h2>Coding Skills</h2>
+                    </div>
+
+                    <div id="skills_2" class="skills-info skills-first-style">
+                      <!-- Coding Skill 1 -->
+                      <div class="clearfix">
+                        <h4>Python</h4>
+                        <div class="skill-value">100%</div>
+                      </div>
+                      <div
+                        id="skill_5"
+                        data-value="100"
+                        class="skill-container"
+                      >
+                        <div class="skill-percentage"></div>
+                      </div>
+                      <!-- /Coding Skill 1 -->
+
+                      <!-- Coding Skill 2 -->
+                      <div class="clearfix">
+                        <h4>HTML / CSS / JS</h4>
+                        <div class="skill-value">85%</div>
+                      </div>
+                      <div id="skill_6" data-value="85" class="skill-container">
+                        <div class="skill-percentage"></div>
+                      </div>
+                      <!-- /Coding Skill 2 -->
+
+                      <!-- Coding Skill 3 -->
+                      <div class="clearfix">
+                        <h4>C / C++ / Java</h4>
+                        <div class="skill-value">85%</div>
+                      </div>
+                      <div id="skill_7" data-value="85" class="skill-container">
+                        <div class="skill-percentage"></div>
+                      </div>
+                      <!-- /Coding Skill 3 -->
+
+                      <!-- Coding Skill 4 -->
+                      <div class="clearfix">
+                        <h4>jQuery</h4>
+                        <div class="skill-value">80%</div>
+                      </div>
+                      <div id="skill_8" data-value="80" class="skill-container">
+                        <div class="skill-percentage"></div>
+                      </div>
+                      <!-- /Coding Skill 4 -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="site-footer clearfix">
+          <div class="footer-social">
+            <ul class="footer-social-links">
+              <li>
+                <a href="#" target="_blank">Twitter</a>
+              </li>
+
+              <li>
+                <a href="#" target="_blank">Facebook</a>
+              </li>
+
+              <li>
+                <a href="#" target="_blank">Instagram</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-copyrights">
+            <p>© 2024 All rights reserved.Djaafar Lecheheb.</p>
+          </div>
+        </footer>
+        <!-- /Footer -->
+      </div>
+    </div>
+
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/your-custom-style.css' %}" />
+    <script src="{% static 'js/jquery-2.1.3.min.js' %}"></script>
+    <script src="{% static 'js/imagesloaded.pkgd.min.js' %}"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/jquery.shuffle.min.js' %}"></script>
+    <script src="{% static 'js/masonry.pkgd.min.js' %}"></script>
+    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrDf32aQTCVENBhFJbMBKOUTiUAABtC2o"></script>
+    <script src="{% static 'js/jquery.googlemap.js' %}"></script>
+    <script src="{% static 'js/validator.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+  </body>
+</html>
